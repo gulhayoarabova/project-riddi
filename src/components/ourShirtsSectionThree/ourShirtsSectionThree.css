@@ -1,0 +1,183 @@
+
+.our_shirts_section-3 {
+    margin-top: 2.5rem;
+}
+.our_shirts_section-3 .our_shirts_flexbox {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+}
+
+.our_shirts_shirts-img img {
+    width: 100%;
+}
+.our_shirts_sec-3-text {
+    padding-top: 6rem;
+    padding-left: 25px;
+}
+.our_shirts_right-txt1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #555;
+    line-height: 25px;
+    padding-top: 13px;
+}
+.our_shirts_right-txt1 a {
+    font-size: 18px;
+    color: #555;
+    text-decoration: none;
+    border-bottom: 2px solid #555;
+}
+
+/* MEDIA QUERY START */
+@media (min-width: 1151px) and (max-width: 1200px)  {
+
+    /* SECTION 3 START */
+    .our_shirts_section-3 {
+        margin-top: 5rem;
+    }
+    .our_shirts_section-3 .our_shirts_flexbox {
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .our_shirts_shirts-img img {
+        height: 100%;
+    }
+    .our_shirts_sec-3-text {
+        padding-top: 1rem;
+        padding-left: 15px;
+    }
+    .our_shirts_right-txt1 {
+        font-size: 18px;
+    }
+    .our_shirts_right-txt1 a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1150px)  {
+
+    /* SECTION 3 START */
+    .our_shirts_section-3 {
+        margin-top: 5rem;
+    }
+    .our_shirts_section-3 .our_shirts_flexbox {
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .our_shirts_shirts-img img {
+        height: 100%;
+    }
+    .our_shirts_sec-3-text {
+        padding-top: 1rem;
+        padding-left: 15px;
+    }
+    .our_shirts_right-txt1 {
+        font-size: 18px;
+    }
+    .our_shirts_right-txt1 a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1041px) and (max-width: 1100px) {
+    /* SECTION 3 START */
+    .our_shirts_section-3 {
+        margin-top: 5rem;
+    }
+    .our_shirts_section-3 .our_shirts_flexbox {
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .our_shirts_shirts-img img {
+        height: 100%;
+    }
+    .our_shirts_sec-3-text {
+        padding-top: 1rem;
+        padding-left: 15px;
+    }
+    .our_shirts_right-txt1 {
+        font-size: 18px;
+    }
+    .our_shirts_right-txt1 a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1040px)  {
+
+    /* SECTION 3 START */
+    .our_shirts_section-3 {
+        margin-top: 5rem;
+    }
+    .our_shirts_section-3 .our_shirts_flexbox {
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .our_shirts_shirts-img img {
+        height: 100%;
+    }
+    .our_shirts_sec-3-text {
+        padding-top: 1rem;
+        padding-left: 15px;
+    }
+    .our_shirts_right-txt1 {
+        font-size: 17px;
+    }
+    .our_shirts_right-txt1 a {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 931px) and (max-width: 992px)  {
+
+    /* SECTION 3 START */
+    .our_shirts_section-3 {
+        margin-top: 5rem;
+    }
+    .our_shirts_section-3 .our_shirts_flexbox {
+        grid-template-columns: 1fr;
+    }
+    .our_shirts_sec-3-text {
+        padding-top: 1rem;
+        padding-left: 15px;
+    }
+    .our_shirts_right-txt1 {
+        font-size: 17px;
+    }
+    .our_shirts_right-txt1 a {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 930px)  {
+
+    /* SECTION 3 START */
+    .our_shirts_section-3 {
+        margin-top: 5rem;
+    }
+    .our_shirts_section-3 .our_shirts_flexbox {
+        grid-template-columns: 1fr;
+    }
+    .our_shirts_shirts-img img {
+        height: 100%;
+    }
+    .our_shirts_sec-3-text {
+        padding-top: 1rem;
+        padding-left: 15px;
+    }
+    .our_shirts_right-txt1 {
+        font-size: 17px;
+    }
+    .our_shirts_right-txt1 a {
+        font-size: 17px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+.our_shirts_header {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 4px solid rgb(251, 248, 248);
+    padding: 0 33px;
+}
+.our_shirts_container {
+    max-width: 93%;
+    margin: 0 auto;
+}
+.our_shirts_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+.our_shirts_menu-list {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.our_shirts_link-items {
+    list-style: none;
+}
+.our_shirts_link-items a {
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+}
+.our_shirts_header .our_shirts_logo {
+    margin-right: 7.9rem;
+}
+.our_shirts_header .our_shirts_logo img {
+    width: 125px;
+    object-fit: cover;
+}
+.our_shirts_header .our_shirts_sign-info {
+    display: flex;
+    align-items: center;
+}
+.our_shirts_header .our_shirts_sign-info .our_shirts_search-icon img {
+    width: 16px;
+}
+.our_shirts_header .our_shirts_sign-info .our_shirts_user-icon img {
+    width: 16px;
+}
+.our_shirts_sign-info .our_shirts_search-icon {
+    display: flex;
+    align-items: center;
+}
+.our_shirts_search-icon a {
+    padding-left: 20px;
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+}
+.our_shirts_sign-info .our_shirts_user-icon {
+    display: flex;
+    align-items: center;
+    padding-left: 1.7rem;
+    padding-right: 1.3rem;
+}
+.our_shirts_user-icon a {
+    padding-right: 8px;
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+}
+.our_shirts_hearts-icons img {
+    width: 26px;
+}
+.our_shirts_hearts-icons img:nth-child(1) {
+    margin-right: 20px;
+}
+
+
+/* MEDIA START */
+@media (min-width: 1101px) and (max-width: 1200px) {
+    .our_shirts_header .our_shirts_logo {
+        margin-right: 3rem;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1100px) {
+    .our_shirts_header .our_shirts_logo {
+        margin-right: 3rem;
+    }
+}
+@media (min-width: 900px) and (max-width: 1000px) {
+    .our_shirts_header .our_shirts_logo {
+        margin-right: 3rem;
+    }
+}

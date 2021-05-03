@@ -1,0 +1,152 @@
+.our_shirts_section-5 {
+    margin-top: 2.5rem;
+}
+.our_shirts_section-5 .our_shirts_grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+}
+.instum-img img {
+    width: 100%;
+    height: 100%;
+}
+.our_shirts_sec-5-text {
+    padding-left: 25px;
+}
+.our_section_five_right-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #555;
+    padding-top: 10px;
+    line-height: 24px;
+}
+.our_shirts_sec-5-text .our_section_five_right-text a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #555;
+    text-decoration: none;
+}
+
+/* MEDIA QUERY START */
+@media (min-width: 1151px) and (max-width: 1200px)  {
+    /* SECTION 5 START */
+    .our_shirts_section-5 {
+        margin-top: 6rem;
+    }
+    .our_shirts_section-5 .our_shirts_grid {
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .our_shirts_sec-5-text {
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    .our_section_five_right-text {
+        font-size: 18px;
+    }
+    .our_shirts_sec-5-text .our_section_five_right-text a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1150px)  {
+
+    /* SECTION 5 START */
+    .our_shirts_section-5 {
+        margin-top: 6rem;
+    }
+    .our_shirts_section-5 .our_shirts_grid {
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .our_shirts_sec-5-text {
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    .our_section_five_right-text {
+        font-size: 18px;
+    }
+    .our_shirts_sec-5-text .our_section_five_right-text a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1041px) and (max-width: 1100px) {
+    /* SECTION 5 START */
+    .our_shirts_section-5 {
+        margin-top: 6rem;
+    }
+    .our_shirts_section-5 .our_shirts_grid {
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .our_shirts_sec-5-text {
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    .our_section_five_right-text {
+        font-size: 18px;
+    }
+    .our_shirts_sec-5-text .our_section_five_right-text a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1040px)  {
+    /* SECTION 5 START */
+    .our_shirts_section-5 {
+        margin-top: 6rem;
+    }
+    .our_shirts_section-5 .our_shirts_grid {
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .our_shirts_sec-5-text {
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    .our_section_five_right-text {
+        font-size: 18px;
+    }
+    .our_shirts_sec-5-text .our_section_five_right-text a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 931px) and (max-width: 992px)  {
+
+    /* SECTION 5 START */
+    .our_shirts_section-5 {
+        margin-top: 6rem;
+    }
+    .our_shirts_section-5 .our_shirts_grid {
+        grid-template-columns: 1fr;
+    }
+    .our_shirts_sec-5-text {
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .our_section_five_right-text {
+        font-size: 18px;
+    }
+    .our_shirts_sec-5-text .our_section_five_right-text a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 930px)  {
+    /* SECTION 5 START */
+    .our_shirts_section-5 {
+        margin-top: 6rem;
+    }
+    .our_shirts_section-5 .our_shirts_grid {
+        grid-template-columns: 1fr;
+    }
+    .our_shirts_sec-5-text {
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .our_section_five_right-text {
+        font-size: 18px;
+    }
+    .our_shirts_sec-5-text .our_section_five_right-text a {
+        font-size: 18px;
+    }
+}

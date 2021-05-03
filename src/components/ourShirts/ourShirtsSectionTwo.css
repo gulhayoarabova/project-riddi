@@ -1,0 +1,17 @@
+.our_shirts_section-2 {
+    margin-top: 2rem;
+}
+.our_shirts_section-2 .back-img {
+    position: relative;
+}
+.our_shirts_section-2 .back-img p {
+    position: absolute;
+    top: 4.3rem;
+    left: 7rem;
+    font-weight: 700;
+    font-size: 22px;
+    color: #555;
+}
+.our_shirts_section-2 .back-img img {
+    width: 100%;
+}

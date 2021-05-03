@@ -1,0 +1,99 @@
+.section-2 {
+    margin-top: 2.5rem;
+}
+.section-2 .sec_2_grid_container {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+}
+.shirt_img img {
+    width: 100%;
+}
+.sec_2_text {
+    padding-left: 25px;
+    padding-top: 5rem;
+}
+.sec_2_text .sec_2_title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    color: #555555;
+}
+.right-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 154%;
+    color: #555555;
+    width: 81%;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+.sec_2_btn {
+    border: 2px solid #555555;
+    font-weight: normal;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 8px 48px;
+    color: #555555;
+    background-color: #fff;
+}
+
+/* MEDIA START */
+@media (min-width: 1100px) and (max-width: 1199px) {
+   
+    /* SECTION 2 START */
+    .section-2 .sec_2_grid_container {
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .sec_2_text {
+        padding-top: 3rem;
+    }
+    .sec_2_text .sec_2_title {
+        font-size: 50px;
+    }
+    .right-text {
+        font-size: 19px;
+        width: 85%;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    /* SECTION 2 START */
+    .section-2 .sec_2_grid_container {
+        grid-template-columns: 1.1fr 1fr;
+    }
+    .sec_2_text {
+        padding-top: 1rem;
+    }
+    .sec_2_text .sec_2_title {
+        font-size: 50px;
+    }
+    .right-text {
+        font-size: 19px;
+        width: 90%;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+
+    /* SECTION 2 START */
+    .section-2 .sec_2_grid_container {
+        grid-template-columns: 1.1fr 1fr;
+    }
+    .sec_2_text {
+        padding-top: 1rem;
+    }
+    .sec_2_text .sec_2_title {
+        font-size: 48px;
+    }
+    .right-text {
+        font-size: 18px;
+        width: 90%;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+}

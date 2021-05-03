@@ -1,0 +1,104 @@
+
+.shop_section_3 {
+    margin: 2.5rem 0;
+} 
+.shop_container {
+    width: 93%;
+    margin: 0 auto;
+}
+.shop_selections select {
+    margin-right: 15px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 163.1%;
+    text-transform: capitalize;
+    color: #777777;
+}
+.shop_selections .shop_select_btn {
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #777777;
+    background-color: #fff;
+    cursor: pointer;
+}
+.shop_grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 45px;
+    grid-row-gap: 35px;
+    padding-top: 3rem;
+}
+.shop_grid_childs .shop_product_img img {
+    width: 100%;
+}
+.shop_product_title {
+    padding: 9px 0 2px 0;
+}
+.shop_product_title p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 163.1%;
+    color: #777777;
+}
+.shop_product_price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop_product_price p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 163.1%;
+    color: #777777;
+}
+.shop_product_price img {
+    width: 15px;
+}
+
+.circle_img {
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+}
+.circle_img img {
+    width: 85px;
+}
+
+/* MEDIA QUERY START */
+@media (min-width: 1101px) and (max-width: 1200px) {
+    .shop_grid_container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+    .grid_childs {
+        width: 260px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1100px) {
+    .grid_container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+    }
+    .grid_childs {
+        width: 260px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .grid_container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+    }
+    .grid_childs {
+        width: 260px;
+    }
+}

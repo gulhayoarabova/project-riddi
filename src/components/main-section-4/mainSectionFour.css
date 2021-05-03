@@ -1,0 +1,36 @@
+.section_4 {
+    position: relative;
+    background-image: url(../../assets/main_img/image\ 43.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.sec_4_texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.sec_4_texts p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 146.1%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.sec_4_texts .sec_4_btn {
+    border: 3px solid #fff;
+    font-weight: normal;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    color: #fff;
+    background-color: transparent;
+    margin-top: 3.7rem;
+}

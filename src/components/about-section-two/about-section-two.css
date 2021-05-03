@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.third-section {
+  width: 93%;
+  height: 100%;
+  margin: 4% auto;
+  line-height: 163.1%;
+  font-family: Montserrat;
+  font-size: 18px;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  color: #696868;
+}
+.inner-div h4 {
+  margin-bottom: 4%;
+  font-size: 20px;
+}
+
+.section-four .image-1 {
+  height: 100%;
+  width: 100%;
+}
+.play-icon-on-image {
+  display: flex;
+  justify-content: center;
+}
+.play-button {
+  height: 10%;
+  width: 10%;
+  margin-top: -30%;
+}
+@media (min-width: 900px) and (max-width: 1000px) {
+  .third-section {
+    font-size: 105%;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .third-section {
+    font-size: 110%;
+  }
+}

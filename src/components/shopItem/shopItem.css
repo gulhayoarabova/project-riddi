@@ -1,0 +1,286 @@
+.shop_item_section_2 {
+    margin-top: 4.5rem;
+}
+.shop_item_container {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.shop_item_grid_container {
+    display: grid;
+    grid-template-columns: 0.2fr 0.6fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.shop_item_box_one .shirt_middle_img {
+    padding-bottom: 19px;
+}
+.shop_item_box_one img {
+    width: 135px;
+}
+.shop_item_box_two .shirt_big_img img {
+    width: 445px;
+}
+
+.shop_item_box_second .shirt_info h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #555555;
+}
+.shop_item_box_second .shirt_info h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #555555;
+    padding: 10px 0 20px 0;
+}
+.shop_item_box_second .shirt_info .detals {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #777;
+    padding-bottom: 10px;
+}
+.shop_item_box_second .shirt_info .info_txt {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 163.1%;
+    font-size: 17px;
+    color: #999;
+    padding-bottom: 3px;
+}
+
+.shop_item_box_second .shirt_types {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.shop_item_box_second .shirt_types img {
+    width: 60px;
+}
+.shirt_type_one .type_one_img {
+    margin-left: 12px;
+}
+.type_one_btn button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #999999;
+    background: #555555;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 7px 25px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.shirt_type_two {
+    padding-left: 20px;
+}
+.shirt_type_two .type_two_img {
+    margin-left: 10px;
+}
+.type_two_btn button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #e7e5e5;
+    background: #fff;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 500;
+    padding: 7px 14px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+    margin-top: 12px;
+}
+
+.size_txt {
+    width: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.size_txt p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #777777;
+}
+.size_txt a {
+    font-style: normal;
+    font-weight: 250;
+    font-size: 16px;
+    color: #777777;
+}
+
+.size_buttons .btn_first {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #999999;
+    background: #555555;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 6px 25px;
+    font-size: 16px;
+    margin-right: 6px;
+}
+.size_buttons .btn_second {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #e7e5e5;
+    background: #fff;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 500;
+    padding: 6px 25px;
+    font-size: 16px;
+    margin-right: 6px;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.buy_btn {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+.buy_btn .add_btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #333;
+    background: #333;
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 0px;
+    width: 170px;
+    font-size: 13px;
+}
+.buy_btn .create_self {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #555;
+    background: #fff;
+    color: #555;
+    font-weight: 500;
+    padding: 7px 0px;
+    width: 170px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.second_text a {
+    color: #999;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* MEDIA START */
+@media (min-width:1108px) and (max-width:1200px) {
+    .size_txt {
+        width: 83%;
+    }
+}
+@media (min-width:1000px) and (max-width:1107px) {
+    .shop_item_box_one img {
+        width: 145px;
+        height: 190px;
+    }
+    .shop_item_box_two .shirt_big_img img {
+        width: 450px;
+        height: 616px;
+    }
+    .size_txt {
+        width: 88%;
+    }
+    .size_buttons .btn_first {
+        margin-bottom: 10px;
+    }
+    .buy_btn .add_btn {
+        width: 150px;
+    }
+    .buy_btn .create_self {
+        width: 150px;
+        margin-left: 14px;
+    }
+    .buy_btn {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width:900px) and (max-width:999px) {
+    .shop_item_box_one img {
+        width: 145px;
+        height: 196px;
+    }
+    .shop_item_box_two .shirt_big_img img {
+        width: 435px;
+        height: 635px;
+    }
+    .size_txt {
+        width: 80%;
+    }
+    .size_txt p {
+        font-size: 18px;
+    }
+    .size_txt a {
+        font-size: 15px;
+    }
+    .size_buttons .btn_first {
+        margin-bottom: 10px;
+    }
+    .type_one_btn button {
+        padding: 6px 22px;
+        font-size: 14px;
+    }
+    .type_two_btn button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+    .size_buttons .btn_first {
+        padding: 5px 22px;
+        font-size: 15px;
+    }
+    .size_buttons .btn_second {
+        padding: 5px 22px;
+        font-size: 15px;
+    }
+    .buy_btn {
+        padding-right: 10px;
+    }
+    .buy_btn .add_btn {
+        width: 130px;
+        font-size: 12px;
+    }
+    .buy_btn .create_self {
+        width: 130px;
+        margin-left: 14px;
+        font-size: 12px;
+    }
+    .buy_btn {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .second_text a {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
